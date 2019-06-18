@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MyTransvision</string>
+
+    <string name="home">Home</string>
+    <string name="ride">Ride</string>
+
+    <!-- Label -->
+    <string name="tujuan_label">Tujuan</string>
+    <string name="keperluan_label">Keperluan</string>
+    <string name="jum_penumpang_label">Jumlah Penumpang</string>
+    <string name="tgl_pemakaian_label">Tanggal Pemakaian</string>
+    <string name="no_polisi_label">No Polisi</string>
+    <string name="km_awal_label">KM Awal</string>
+    <string name="km_akhir_label">KM Akhir</string>
+    <string name="pengemudi_label">Pengemudi</string>
+    <string name="detail_pemakaian_label">Detail Pemakaian</string>
+    <string name="insert_passcode_label">Masukkan Kode Pemakaian</string>
+    <string name="detail_permohonan_label">Detail Permohonan</string>
+    <string name="dasar_pemakaian_label">Dasar Pemakaian</string>
+    <string name="lama_pemakaian_label">Lama Pemakaian</string>
+    <string name="verify_label">Verify</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="tanggal_pengajuan_label">Tanggal Pengajuan</string>
+    <string name="permohonan">Permohonan</string>
+    <string name="pemakaian">Pemakaian</string>
+</resources>

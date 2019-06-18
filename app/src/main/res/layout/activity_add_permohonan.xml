@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AddPermohonanActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Tujuan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="@string/tujuan_label"/>
+
+        <EditText
+            android:id="@+id/tujuan_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:text="" />
+
+        <!-- Keperluan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="@string/keperluan_label" />
+
+        <EditText
+            android:id="@+id/keperluan_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences" />
+
+        <!-- Jumlah Penumpang -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="@string/jum_penumpang_label"/>
+
+        <EditText
+            android:id="@+id/jum_penumpang_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+
+        <!-- Tgl Pemakaian -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="@string/tgl_pemakaian_label"/>
+
+        <Button
+            android:id="@+id/open_date_picker_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_date_black"
+            android:drawablePadding="12dp"
+            android:gravity="start|center_vertical"
+            android:text="Monday, 31-12-2018"
+            android:textAllCaps="false"
+            android:textSize="12sp"/>
+
+        <!-- Lama Pemakaian -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="@string/lama_pemakaian_label"/>
+
+        <EditText
+            android:id="@+id/lama_pemakaian_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+        <!-- Dasar Pemakaian -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="@string/dasar_pemakaian_label"/>
+
+        <EditText
+            android:id="@+id/dasar_pemakaian_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+</ScrollView>

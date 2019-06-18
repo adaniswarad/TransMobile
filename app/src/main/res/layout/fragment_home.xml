@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:id="@+id/empty_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/empty_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_empty_permohonan"/>
+
+            <TextView
+                android:id="@+id/empty_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/empty_image"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="16dp"
+                android:text="Tidak ada riwayat pemakaian"
+                android:textAppearance="?android:textAppearanceMedium"
+                app:fontFamily="sans-serif-medium"/>
+
+            <TextView
+                android:id="@+id/empty_subtitle_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/empty_title_text"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="8dp"
+                android:text="Ayo mulai berkendara!"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#A2AAB0"
+                app:fontFamily="sans-serif"/>
+
+        </RelativeLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_add_white" />
+
+    </RelativeLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>
